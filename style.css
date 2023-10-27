@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+header {
+    background-color: #0073e6;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
+}
+
+section {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+ul, p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+a.download-button {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: #0073e6;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+a.download-button:hover {
+    background-color: #005bb8;
+}
+
+a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Styling the LinkedIn link */
+a[href^="https://www.linkedin.com"]::before {
+    content: "\f08c";
+    font-family: FontAwesome;
+    margin-right: 10px;
+}
+
+/* Add this class to make your LinkedIn link look like an icon */
+.linkedIn-icon::before {
+    content: "\f08c";
+    font-family: FontAwesome;
+    margin-right: 5px;
+}
+
+/* Add this class to style reference contact information */
+.reference-contact {
+    font-size: 16px;
+}
+
+/* Additional styling for your CV */
+/* Customize the colors, fonts, and other styles to your liking */
